@@ -65,7 +65,7 @@ public class IndexVIP extends AppCompatActivity implements NavigationView.OnNavi
         Intent intent = new Intent();
         switch (item.getItemId()){
             case R.id.profile_item_vip:
-                intent = new Intent(IndexVIP.this, Profile.class);
+                intent = new Intent(IndexVIP.this, ProfileVIP.class);
                 break;
             case R.id.logout_item_vip:
                 intent = new Intent(IndexVIP.this, LoginActivity.class);
