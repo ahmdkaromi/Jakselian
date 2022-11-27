@@ -54,8 +54,8 @@ public class KamusAdapterVIP extends RecyclerView.Adapter<KamusAdapterVIP.ViewHo
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            katavip = itemView.findViewById(R.id.textkatauser);
-            artivip = itemView.findViewById(R.id.textartiuser);
+            katavip = itemView.findViewById(R.id.textkatavip);
+            artivip = itemView.findViewById(R.id.textartivip);
             kalimatvip = itemView.findViewById(R.id.textkalimatvip);
         }
     }

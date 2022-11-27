@@ -67,6 +67,9 @@ public class IndexUser extends AppCompatActivity implements NavigationView.OnNav
             case R.id.profile_item:
                 intent = new Intent(IndexUser.this, Profile.class);
                 break;
+            case R.id.premium_item:
+                intent = new Intent(IndexUser.this, GetPremium.class);
+                break;
             case R.id.logout_item:
                 intent = new Intent(IndexUser.this, LoginActivity.class);
                 finish();

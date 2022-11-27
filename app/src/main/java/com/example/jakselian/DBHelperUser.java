@@ -1,5 +1,6 @@
 package com.example.jakselian;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -93,6 +94,21 @@ public class DBHelperUser extends SQLiteOpenHelper {
             return true;
         else
             return false;
+    }
+
+    @SuppressLint("Range")
+    public ProfileData getData(String username){
+        ProfileData profileData = new ProfileData();
+        SQLiteDatabase MyDB = this.getReadableDatabase();
+        Cursor cursor = MyDB.rawQuery("Select * from User where username = ?", new String[]{username});
+        if(cursor.moveToFirst()){
+            profileData.username = cursor.getString(cursor.getColumnIndex("username"));
+            profileData.email = cursor.getString(cursor.getColumnIndex("email"));
+            profileData.password = cursor.getString(cursor.getColumnIndex("password"));
+        }
+        else
+            cursor.close();
+        return profileData;
     }
 
 }

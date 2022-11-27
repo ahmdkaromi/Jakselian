@@ -64,10 +64,10 @@ public class IndexVIP extends AppCompatActivity implements NavigationView.OnNavi
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         Intent intent = new Intent();
         switch (item.getItemId()){
-            case R.id.profile_item:
+            case R.id.profile_item_vip:
                 intent = new Intent(IndexVIP.this, Profile.class);
                 break;
-            case R.id.logout_item:
+            case R.id.logout_item_vip:
                 intent = new Intent(IndexVIP.this, LoginActivity.class);
                 finish();
                 break;

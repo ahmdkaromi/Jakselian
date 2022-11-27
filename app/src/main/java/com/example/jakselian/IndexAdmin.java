@@ -65,7 +65,7 @@ public class IndexAdmin extends AppCompatActivity implements NavigationView.OnNa
         Intent intent = new Intent();
         switch (item.getItemId()){
             case R.id.profile_admin:
-                intent = new Intent(IndexAdmin.this, Profile.class);
+                intent = new Intent(IndexAdmin.this, ProfileAdmin.class);
                 break;
             case R.id.tambah_admin:
                 intent = new Intent(IndexAdmin.this, AddWordsAdmin.class);

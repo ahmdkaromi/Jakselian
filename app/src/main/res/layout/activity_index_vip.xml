@@ -49,7 +49,7 @@
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        app:menu="@menu/navigation_menu"
+        app:menu="@menu/navigation_menu_vip"
         android:id="@+id/navVIP"
         android:background="@color/pink"
         android:layout_gravity="start">
