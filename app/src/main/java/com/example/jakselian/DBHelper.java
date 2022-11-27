@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.provider.SyncStateContract;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,7 +63,6 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
-
     public List<Kamus> getListKata() {
         String sql = "select * from Kamus";
         DB = this.getReadableDatabase();
@@ -80,4 +80,5 @@ public class DBHelper extends SQLiteOpenHelper {
         cursor.close();
         return storeKamus;
     }
+
 }
