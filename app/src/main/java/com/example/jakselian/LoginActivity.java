@@ -52,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                             bundle1.putString("password", profileData.password);
                             profile1.putExtras(bundle1);
                             startActivity(profile1);
+
                             Intent admin = new Intent(LoginActivity.this, IndexAdmin.class);
                             startActivity(admin);
                             finish();
@@ -65,6 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                             bundle2.putString("password", profileData.password);
                             profile2.putExtras(bundle2);
                             startActivity(profile2);
+
                             Intent vip = new Intent(LoginActivity.this, IndexVIP.class);
                             startActivity(vip);
                             finish();
@@ -78,6 +80,16 @@ public class LoginActivity extends AppCompatActivity {
                             bundle3.putString("password", profileData.password);
                             profile3.putExtras(bundle3);
                             startActivity(profile3);
+
+                            ProfileData profileData2 = MyDB.getData(user);
+                            Intent profile4 = new Intent(getApplicationContext(), GetPremium.class);
+                            Bundle bundle4 = new Bundle();
+                            bundle4.putString("id", profileData2.id);
+                            bundle4.putString("username", profileData2.username);
+                            bundle4.putString("status", profileData2.status);
+                            profile4.putExtras(bundle4);
+                            startActivity(profile4);
+
                             Intent intent = new Intent(LoginActivity.this, IndexUser.class);
                             startActivity(intent);
                             finish();
