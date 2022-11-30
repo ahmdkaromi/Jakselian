@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_add_words_admin.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_get_premium.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_index_admin.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_index_user.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_index_vip.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_profile.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_profile_admin.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_profile_vip.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_register.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_splash.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/kamus_item_list.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/kamus_item_list_user.xml" value="0.15307971014492755" />
+        <entry key="..\:/AndroidStudioProjects/Jakselian/app/src/main/res/layout/kamus_item_list_vip.xml" value="0.15307971014492755" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Jakselian/app/src/main/res/drawable/button.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Jakselian/app/src/main/res/drawable/gradient_drawable.xml" value="0.191" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Jakselian/app/src/main/res/layout/activity_add_words_admin.xml" value="0.1" />

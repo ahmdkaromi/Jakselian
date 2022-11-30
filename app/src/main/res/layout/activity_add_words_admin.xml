@@ -49,7 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/judul_add"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginHorizontal="24dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -59,7 +60,8 @@
             android:text="Kata"
             android:textColor="@color/pink"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -88,7 +90,8 @@
             android:text="Arti"
             android:textColor="@color/pink"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -117,13 +120,15 @@
             android:text="Kalimat"
             android:textColor="@color/pink"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:backgroundTint="@color/lightpink"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="40dp"
+            android:layout_marginBottom="12dp">
 
             <EditText
                 android:id="@+id/kalimat_add"

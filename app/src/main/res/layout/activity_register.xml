@@ -24,7 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/judul_regist"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -127,7 +129,8 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:backgroundTint="@color/lightpink"
-            app:cardCornerRadius="40dp">
+            app:cardCornerRadius="40dp"
+            android:layout_marginBottom="12dp">
 
             <EditText
                 android:id="@+id/confirm_regist"
@@ -150,17 +153,16 @@
             android:backgroundTint="@color/pink"
             android:fontFamily="@font/architects_daughter"
             android:text="Daftar"
-            android:textStyle="bold"
-            android:textColor="@color/blue" />
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/sudahregist"
-            android:clickable="true"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sudah memiliki akun? Lakukan login disini."
-            />
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Sudah memiliki akun? Lakukan login disini." />
     </LinearLayout>
 </RelativeLayout>
